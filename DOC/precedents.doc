@@ -1,5 +1,6 @@
 @startuml
 :predictor: --> (take some photos)
+:predictor: --> (determining the time of day)
 :predictor: --> (determine direction and speed)
 :predictor: --> (searching for the sun)
 :predictor: --> (сalculating the time when the sun will not be visible)
