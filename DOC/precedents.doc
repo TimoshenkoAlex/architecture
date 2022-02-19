@@ -1,0 +1,11 @@
+@startuml
+:predictor: --> (take some photos)
+:predictor: --> (determine direction and speed)
+:predictor: --> (searching for the sun)
+:predictor: --> (сalculating the time when the sun will not be visible)
+:predictor: --> (weather detection)
+:predictor: --> (sending information to cloud storage)
+:user: --> (get information)
+:device: --> (get information)
+(get information) <--> (sending information to cloud storage)
+@enduml
