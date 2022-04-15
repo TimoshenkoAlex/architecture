@@ -1,0 +1,18 @@
+@startuml
+
+class mainPC
+class Camera
+class Photo 
+class Sun 
+Class Cloud
+Class Generator
+Class User
+
+mainPC --> Camera : has
+mainPC --> Generator : on/off
+Camera --> Photo : makes many
+Photo --> Sun : has
+Photo --> Cloud : has several
+mainPC --> User : give information
+
+@enduml
