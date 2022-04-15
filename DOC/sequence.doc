@@ -1,0 +1,9 @@
+@startuml
+
+actor User
+mainPC -> Camera : getPhoto()
+Camera -> Photo : makePhoto()
+Photo -> Sun : sunDetect()
+Photo -> Cloud : cloudDetect()
+
+@enduml
