@@ -1,0 +1,42 @@
+@startuml
+class mainPC{
+ int time;
+ Photo photos[];
+
+ void switchGenerator();
+ Photo getPhoto();
+}
+class Camera{
+ Photo makePhoto()
+
+}
+class Photo{
+ int width;
+ int height;
+ Cloud clouds[];
+ Sun sun;
+
+ Sun sunDetect();
+ Cloud cloudDetect();
+
+}
+class Sun{
+ float coardinates[];
+
+}
+Class Cloud{
+ float coardinates[];
+
+}
+Class Generator{
+bool condition
+
+}
+
+mainPC o-- Camera : has
+Camera -- Photo : make
+mainPC o-- Photo : has several
+Photo o-- Sun : has 1
+Photo o-- Cloud : has several
+mainPC -- Generator : switch
+@enduml
