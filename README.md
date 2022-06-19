@@ -2,7 +2,7 @@
 Практическая работа по предмету Архитекутра информационных систем. 
 Вариант №1: "Система для определения наличия облаков на небе и предсказания, когда они закроют солнце"
 
-#СОДЕРЖАНИЕ
+# СОДЕРЖАНИЕ
 1. [Код](https://github.com/TimoshenkoAlex/architecture/tree/main/SRC)
 2. [Документация](https://github.com/TimoshenkoAlex/architecture/tree/main/DOC)
 
