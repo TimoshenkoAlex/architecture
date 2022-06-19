@@ -3,8 +3,8 @@
 Вариант №1: "Система для определения наличия облаков на небе и предсказания, когда они закроют солнце"
 
 #СОДЕРЖАНИЕ
-1. [Код] (https://github.com/TimoshenkoAlex/architecture/tree/main/SRC)
-2. [Документация] (https://github.com/TimoshenkoAlex/architecture/tree/main/DOC)
+1. [Код](https://github.com/TimoshenkoAlex/architecture/tree/main/SRC)
+2. [Документация](https://github.com/TimoshenkoAlex/architecture/tree/main/DOC)
 
 ## Код
 - [Макет] (https://github.com/TimoshenkoAlex/architecture/blob/main/SRC/model.cpp)
